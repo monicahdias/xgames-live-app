@@ -20,7 +20,12 @@ const Home = () => {
             <Button2 value="SIGN UP" type="button" />
           </S.HomeButtons>
         </S.HomeHeader>
-        <Games />
+        <S.HomeGames>
+          <Games />
+          <Games />
+          <Games />
+          <Games />
+        </S.HomeGames>
       </S.HomeContent>
     </S.Home>
   );

@@ -23,6 +23,8 @@ const buttonStyle = () => css`
 
 const overlay = () => css`
   background: rgb(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100vw;
 `;
 
 const input = () => css`

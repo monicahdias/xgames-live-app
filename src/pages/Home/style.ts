@@ -18,11 +18,6 @@ export const HomeContent = styled.main`
     width: 100%;
     height: 100%;
     ${theme.mixins.overlay()};
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    flex-direction: row;
-    flex-wrap: wrap;
   `}
 `;
 
@@ -59,5 +54,16 @@ export const HomeButtons = styled.div`
     margin: .5rem 1rem;
     gap: .5rem;
   
+  `}
+`;
+
+export const HomeGames = styled.div`
+  ${() => css`
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
   `}
 `;
